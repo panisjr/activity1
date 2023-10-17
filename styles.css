@@ -1,0 +1,45 @@
+.wrapper{
+    background-image: url('night.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.input-box{
+    width: 500px;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+
+}
+.input{
+    border:none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    outline: none;
+    color: white    ;
+}
+.input-field{
+    width: 80%;
+    border: none;
+}
+.btn{
+    width: 40%;
+}
+.btn:hover{
+    border-color: #003849;
+    color: white;
+    background-color: #003849;
+}
+label, h3{
+    color: white;
+}
+
+@media only screen and (max-width:800px){
+   .input-box{
+    max-width: 400px;
+   }
+}
